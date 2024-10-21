@@ -1,0 +1,53 @@
+/* add classes here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for small screen size use prefix sm:/classname{css property} */
+@media (max-width: 640px) {
+
+}
+
+
+/* for meidium screen size use prefix md:/classname{css property} */
+@media (max-width: 768px) {
+
+}
+
+
+/* for large screen size use prefix lg:/classname{css property} */
+@media (max-width: 1024px) {
+
+}
+
+
+
+/* for extra large screen size use prefix xl:/classname{css property} */
+@media (max-width: 1280px) {
+
+}
