@@ -34,8 +34,9 @@ Build the CSS library: `npx postcss src/index.css -o dist/csslib.css`
 
 ### Step 4: Test Your Changes
 
-1. Run `npx postcss src/index.css -o dist/csslib.css` to rebuild the CSS library.
-2. Open `test.html` and add your new class to test its functionality.
+1. run npm i
+2. Run `npx postcss src/index.css -o dist/csslib.css` to rebuild the CSS library.
+3. Open `test.html` and add your new class to test its functionality.
 
 ### Step 5: Remove Test Class
 
