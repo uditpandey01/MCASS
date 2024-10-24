@@ -1,3 +1,9 @@
+/* add classes here */
+/* add classes here */
+
+.justify-self-auto {
+    justify-self: auto;
+}
 /* riya kachere  */
 .justify-normal	
 {
@@ -35,14 +41,34 @@
     flex-direction: row;
 }
 
-.flex-row-reverse {
-    flex-direction: row-reverse;
+.justify-self-start {
+    justify-self: start;
 }
 
-.flex-col {
-    flex-direction: column;
+.justify-self-end {
+    justify-self: end;
 }
 
-.flex-col-reverse {
-    flex-direction: column-reverse;
+.justify-self-center {
+    justify-self: center;
+}
+
+.justify-self-stretch {
+    justify-self: stretch;
+}
+
+.flex-1 {
+    flex: 1 1 0%;
+}
+
+.flex-auto {
+    flex: 1 1 auto;
+}
+
+.flex-initial {
+    flex: 0 1 auto;
+}
+
+.flex-none {
+    flex: none;
 }
