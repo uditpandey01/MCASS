@@ -1,3 +1,37 @@
+<<<<<<< HEAD
+/* riya kachere  */
+.justify-normal	
+{
+    justify-content: normal;
+}
+.justify-start
+{
+    justify-content: flex-start;
+}
+.justify-end	
+{
+    justify-content: flex-end;
+}
+.justify-center	
+{
+    justify-content: center;
+}
+.justify-between	
+{
+    justify-content: space-between;
+}
+.justify-around	
+{
+    justify-content: space-around;
+}
+.justify-evenly
+{
+    justify-content: space-evenly;
+}
+.justify-stretch	
+{
+    justify-content: stretch;
+=======
 /* add classes here */
 /* add classes here */
 .flex-row {
@@ -14,4 +48,5 @@
 
 .flex-col-reverse {
     flex-direction: column-reverse;
+>>>>>>> 8a12a97cdd2896c820fc4772f32fd06933879ec3
 }
