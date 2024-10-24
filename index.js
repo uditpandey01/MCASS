@@ -5,14 +5,16 @@ const glob = require('glob');
 const config = require('./Mcass.config.js');
 const generatedClasses = new Set();
 const generateCss = (className) => {
+  if (className.startsWith('bg--')) {
+    const value = className.split('--')[1];
+    return `.${className} {  background-color: ${value}; }`;
+  }
+  
   if (className.startsWith('text--')) {
     const value = className.split('--')[1];
     return `.${className} { font-size: ${value}; }`;
   }
-  if (className.startsWith('color--')) {
-    const value = className.split('--')[1];
-    return `.${className} { color: ${value}; }`;
-  }
+
   return ''; 
 };
 
