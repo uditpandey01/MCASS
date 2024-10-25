@@ -1,1 +1,27 @@
 /* add classes here */
+/* Table Auto */
+.table-auto {
+    width: auto; /* Default behavior */
+    table-layout: auto; /* Columns adjust to content */
+    border-collapse: collapse; /* Collapses borders */
+}
+
+.table-auto th, .table-auto td {
+    border: 1px solid #ccc; /* Light gray border */
+    padding: 8px; /* Cell padding */
+}
+
+/* Table Fixed */
+.table-fixed {
+    width: 100%; /* Full width */
+    table-layout: fixed; /* Fixed layout */
+    border-collapse: collapse; /* Collapses borders */
+}
+
+.table-fixed th, .table-fixed td {
+    border: 1px solid #ccc; /* Light gray border */
+    padding: 8px; /* Cell padding */
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; /* Ellipsis for overflowed text */
+    white-space: nowrap; /* Prevent text wrapping */
+}
