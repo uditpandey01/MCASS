@@ -1,6 +1,6 @@
 module.exports = {
     content: [
-      'index.html',
+      'test.html',
       './src/**/*.html',
       './src/**/*.jsx',
     ],
